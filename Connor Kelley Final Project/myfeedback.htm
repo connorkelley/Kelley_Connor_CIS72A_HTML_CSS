@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Connor Kelley's World: Feedback</title>
+	<link href="main.css" type="text/css" rel="stylesheet">	
+</head>
+<body>
+<header>
+<img src="logo.png" width="769" height="90" alt="Connor Kelley's World">
+</header>
+
+<nav>
+<p><a href="index.html">Home</a></p> 
+<p><a href="myResume.html">Resume</a></p> 
+<p><a href="mylinks.htm">Favorite Links</a></p> 
+<p><a href="other.htm">Travels</a></p> 
+<p><a href="myfeedback.htm">Feedback</a></p> 
+</nav>
+
+<div id="main">
+<h1>Feedback Page</h1>
+<p><b>Please send me your feedback!</b> I welcome all feedback, positive or negative. So feel free to send your comments -- it will help to keep me informed. I promise to monitor and respond to all feedback in a timely manner.
+</p>
+
+<form action="myfeedbackresponse.htm" method="post">
+<p>Full name:<br />
+<input type="text" name="fullname" size="30">
+</p>
+
+<p>Feedback is regarding:<br />
+<select name="re">
+<option value="design">Web site design</option>
+<option value="content">Web site content</option>
+<option value="problem">Web site problem</option>
+<option value="personal">Personal Issue</option>
+<option value="other">Other</option>
+</select>
+</p>
+
+<p>Overall feeling:<br />
+<input type="radio" name="feeling" value="satisfied" />Satisfied &nbsp; &nbsp; &nbsp;
+<input type="radio" name="feeling" value="neutral" />Neutral &nbsp; &nbsp; &nbsp;
+<input type="radio" name="feeling" value="unsatisfied" />Unsatisfied &nbsp; &nbsp; &nbsp;
+</p>
+
+<p>Your comments:<br />
+<textarea name="comments" rows="4" cols="30"></textarea>
+</p>
+
+<p>I would recommend this site to others:<br />
+<input type="checkbox" value="yes" name="recommend" />
+
+<p>
+<input type="submit" name="send" value="Send Feedback" /> &nbsp; &nbsp;
+<input type="reset" name="calcel" value="Clear Feedback" />
+</p>
+</form>
+</body>
+</html>

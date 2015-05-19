@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+/*
+ CSS created with CSE HTML Validator
+*/
+ 
+header {
+	height : 100px; /* optionally set an appropriate height for this banner area */
+	background-color: white;
+}   
+
+nav {
+	width : 250px;  /* optionally set an appropriate width for this banner area */
+	float : left;   /* must float left or right to allow main content to sit next to it */
+	height: 750px;  /* set a height as needed if main page text is wrapping below sidebar; */
+	
+}
+
+h1 {
+	color: blue;
+}
+
+#main {margin-left: 250px;
+	
+}
+
+a {
+	color: yellow;
+}
+
+a:hover{
+	color: blue;
+}
+
+a:visited{
+	color: aqua;
+}
+
+footer {
+	margin-top: 50px; /* optionally separate copyright from main content by some amount */
+}
+body { 
+	font-family: "Times New Roman", Times, serif;
+	background-color: gray;
+	background-image: url("body.jpg");
+	color: white;
+}
